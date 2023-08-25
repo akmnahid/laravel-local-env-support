@@ -13,7 +13,7 @@ Via Composer:
 composer require akmnahid/laravel-env-local-support
 ```
 
-After installation, Laravel's package discovery will automatically register its service provider. If for any reason you need to manually register the provider, add it to the providers array in config/app.php:
+After installation, Laravel's package discovery will automatically register its service provider. If for any reason you need to manually register the provider, add it to the providers array in `config/app.php`:
 
 ```php
 Akmnahid\LaravelEnvLocalSupport\LaravelEnvLocalSupportServiceProvider::class,
