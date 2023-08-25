@@ -5,7 +5,8 @@
         {
             "name": "Abu Kahab Mohammad Nahid Hossain",
             "email": "mail@akmnahid.com",
-            "role": "Developer"
+            "role": "Developer",
+            "homepage": "https://www.akmnahid.com"
         }
     ],
     "type": "library",
