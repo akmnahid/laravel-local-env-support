@@ -160,6 +160,7 @@ This project adheres to [Semantic Versioning](https://semver.org/). For the vers
 All notable changes to this project will be documented in this section.
 
 - **v1.0.1**: Initial release with support for loading `.env.local` files.
+- **v1.0.2**: Updates with new codebases
 
 ---
 
