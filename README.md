@@ -163,6 +163,7 @@ All notable changes to this project will be documented in this section.
 - **v1.0.3**: Updated readme.md
 - **v1.0.2**: Updates with new codebases
 - **v1.0.1**: Initial release with support for loading `.env.local` files.
+- **v1.0.0**: Initial release with support for loading `.env.local` files.
 
 
 ---
