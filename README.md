@@ -138,7 +138,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 # Credits
 
-- **Author**: [Your Name or Organization]
+- **Author**: Nahid Hossain
+- **Website**: http://www.akmnahid.com
 - **GitHub**: [https://github.com/akmnahid/laravel-local-env-support](https://github.com/akmnahid/laravel-local-env-support)
 
 ---
