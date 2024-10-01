@@ -26,7 +26,7 @@ You can install this package via Composer:
 composer require akmnahid/laravel-local-env-support
 ```
 
-If the package is not yet available on Packagist, you can include it via a VCS repository in your `composer.json`:
+To install directly from VCS repository in your `composer.json`:
 
 ```json
 {
