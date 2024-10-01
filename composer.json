@@ -1,6 +1,6 @@
 {
-    "name": "akmnahid/laravel-env-local-support",
-    "description": "The laravel-env-local plugin allows Laravel developers to seamlessly integrate environment-specific .env.local configurations, enhancing adaptability across different development stages.",
+    "name": "akmnahid/laravel-local-env-support",
+    "description": "The laravel-local-env-support plugin allows Laravel developers to seamlessly integrate environment-specific .env.local configurations, enhancing adaptability across different development stages.",
     "authors": [
         {
             "name": "Abu Kahab Mohammad Nahid Hossain",
@@ -14,21 +14,22 @@
         "akmnahid",
         "laravel-env-local-support"
     ],
-    "homepage": "https://github.com/akmnahid/laravel-env-local-support",
+    "homepage": "https://github.com/akmnahid/laravel-local-env-support",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Akmnahid\\LaravelEnvLocalSupport\\": "src/"
+            "LaravelEnvLocal\\": "src/"
         }
     },
     "require": {
-        "php": ">=7.3",
-        "illuminate/support": ">=8.0"
+        "php": "^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0",
+        "vlucas/phpdotenv": "^5.5"
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Akmnahid\\LaravelEnvLocalSupport\\LaravelEnvLocalSupportServiceProvider"
+                "LaravelEnvLocal\\EnvLocalServiceProvider"
             ]
         }
     }
